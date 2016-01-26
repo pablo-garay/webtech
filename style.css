@@ -25,17 +25,25 @@ a {
     text-decoration: none;
 }
 
-a:link {
-    color:#E5CC00;
-} /* unvisited link */
-
 a:visited {
     color:#E5CC00;
 } /* visited link */
 
-a:hover {
+a:link.textll {
+    color:#E5CC00;
+} /* unvisited link */
+
+a:hover.textll {
     color:#E5CC00;
 } /* mouse over link */
+
+a:link.menuItem {
+    color:#000000;
+} /* unvisited link */
+
+a:visited.menuItem {
+    color:#000000;
+} /* visited link */
 
 a:hover.menuItem {
     color:#999900;
