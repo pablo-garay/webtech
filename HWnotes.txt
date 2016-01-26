@@ -5,3 +5,5 @@ Links.
 Left aligned text
 
 CENTER DEPRECATED!
+
+Link visited, not visited, hover
