@@ -1,3 +1,9 @@
+body {
+    background: url('img/background.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Times New Roman", Times, serif, Arial;
+}
+
 div {
     background-color: white;
     width: 900px;
@@ -20,15 +26,15 @@ a {
 }
 
 a:link {
-    color:#FF0000;
+    color:#E5CC00;
 } /* unvisited link */
 
 a:visited {
-    color:#FF0000;
+    color:#E5CC00;
 } /* visited link */
 
 a:hover {
-    color:#FF0000;
+    color:#E5CC00;
 } /* mouse over link */
 
 a:hover.menuItem {
