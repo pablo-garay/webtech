@@ -1,0 +1,21 @@
+div {
+    background-color: white;
+    width: 900px;
+}
+
+h1, h2 {
+    color: black;
+    text-align: left;
+}
+
+p {
+    color: black;
+    font-size: 1.0em;
+    text-align: left;
+}
+
+
+
+a:link {
+    color: slategray;
+}
