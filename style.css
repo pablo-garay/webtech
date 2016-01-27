@@ -1,23 +1,49 @@
-body {
-    background: url('img/background.png') no-repeat center center fixed;
-    background-size: cover;
-    font-family: "Times New Roman", Times, serif, Arial;
+html, body {
+    height: 100%;
 }
 
-div {
+html {
+    display: table; 
+    width: 100%;
+    margin: auto;
+}
+
+body {
+    display: table-cell; 
+    text-align: center; 
+    vertical-align: middle;
+    
+    width: 940px;
+    background: url("img/background.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Times New Roman", Times, serif, Arial;
+    margin: 0; padding: 0; border: 0;
+}
+
+div.menubar {
+    background: url("img/menu.png") no-repeat center top;
+    background-color: transparent;
+    width: 940px;
+    height: 69px;
+    margin: 0; padding: 0; border: 0;
+}
+
+div.textContent {
     background-color: white;
     width: 880px;
-    /* margin: 10px 10px 10px 10px; */
-    padding: 10px 10px 10px 10px;
+    margin: 0px 20px 20px 20px;
+    padding: 0px 10px 10px 10px;
 }
 
 h1, h2 {
     color: black;
     text-align: left;
+    margin: 0; padding: 0; border: 0;
 }
 
 h1 {
     font-size: 21.6px;
+    margin-bottom: 1em;
 }
 
 h2 {
@@ -37,15 +63,15 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a:visited.textLink {
     color:#E5CC00;
 } /* visited link */
 
-a:link.textll {
+a:link.textLink {
     color:#E5CC00;
 } /* unvisited link */
 
-a:hover.textll {
+a:hover.textLink {
     color:#E5CC00;
 } /* mouse over link */
 
@@ -64,7 +90,6 @@ a:visited.menuItem {
 a:hover.menuItem {
     color:#999900;
 } /* unvisited link */
-
 
 #footer {
     text-align: center;
