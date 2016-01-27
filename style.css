@@ -10,14 +10,47 @@ html {
 
 body {
     display: table-cell; 
-    text-align: center; 
-    vertical-align: middle;
+    text-align: center;
     
     width: 940px;
     background: url("img/background.png") no-repeat center center fixed;
     background-size: cover;
     font-family: "Times New Roman", Times, serif, Arial;
     margin: 0; padding: 0; border: 0;
+}
+
+.banner {
+    position: relative;
+    width: 900;
+    height: 354;
+}
+
+.banner-inner-container {
+    position: absolute;
+    width: 100%; /* for IE 6 */
+}
+
+.bannerText { 
+    position: absolute;
+    top: 65%; 
+    left: 65%; 
+    width: 100%;
+}
+
+.bannerTitle{
+    font-size: 30px;
+}
+
+.bannerTitle1{
+    color: #AC9800;
+}
+
+.bannerTitle2{
+    color: #F3D861;
+}
+
+.bannerSubtitle{
+    color: #776A00;
 }
 
 div.menubar {
