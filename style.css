@@ -6,7 +6,9 @@ body {
 
 div {
     background-color: white;
-    width: 900px;
+    width: 880px;
+    /* margin: 10px 10px 10px 10px; */
+    padding: 10px 10px 10px 10px;
 }
 
 h1, h2 {
@@ -14,9 +16,19 @@ h1, h2 {
     text-align: left;
 }
 
+h1 {
+    font-size: 21.6px;
+}
+
+h2 {
+    font-size: 17px;
+    margin:0px;
+}
+
 p {
+    margin-top:0px;
     color: black;
-    font-size: 1.0em;
+    font-size: 14px;
     text-align: left;
 }
 
@@ -37,12 +49,16 @@ a:hover.textll {
     color:#E5CC00;
 } /* mouse over link */
 
+a.menuItem {
+    font-size: 17px;
+}
+
 a:link.menuItem {
-    color:#000000;
+    color:#3C3600;
 } /* unvisited link */
 
 a:visited.menuItem {
-    color:#000000;
+    color:#3C3600;
 } /* visited link */
 
 a:hover.menuItem {
