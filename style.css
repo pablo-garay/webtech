@@ -5,7 +5,6 @@ html, body {
 html {
     display: table; 
     width: 100%;
-    margin: auto;
     text-align: center;
 }
 
@@ -21,6 +20,10 @@ body {
     background-size: contain;
     font-family: "Times New Roman", Times, serif, Arial;
     margin: 0; padding: 0; border: 0;
+}
+
+div {
+    margin: 0 auto;
 }
 
 .banner {
@@ -63,7 +66,6 @@ body {
     background-color: transparent;
     width: 940px;
     height: 69px;
-    margin: 0; padding: 0; border: 0;
 }
 
 /* #menubar:after {
@@ -84,7 +86,7 @@ body {
 div.textContent {
     background-color: white;
     width: 880px;
-    margin: 0px 20px 20px 20px;
+    /* margin: 0px 20px 20px 20px; */
     padding: 0px 10px 10px 10px;
 }
 
@@ -101,7 +103,6 @@ h1 {
 
 h2 {
     font-size: 17px;
-    margin:0px;
 }
 
 p {
