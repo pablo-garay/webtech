@@ -32,13 +32,14 @@ body {
 
 .bannerText { 
     position: absolute;
-    top: 65%; 
-    left: 65%; 
+    top: 62%; 
+    left: 64%; 
     width: 100%;
 }
 
 .bannerTitle{
     font-size: 30px;
+    line-height: 95%;
 }
 
 .bannerTitle1{
