@@ -13,8 +13,9 @@ body {
     text-align: center;
     
     width: 940px;
-    background: url("img/background.png") no-repeat center center fixed;
-    background-size: cover;
+    background: url("img/background.png") repeat-x/* no-repeat center center fixed;
+    background-size: cover */;
+    background-size: contain;
     font-family: "Times New Roman", Times, serif, Arial;
     margin: 0; padding: 0; border: 0;
 }
