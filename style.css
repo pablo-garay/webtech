@@ -87,6 +87,7 @@ div.textContent {
     background-color: white;
     width: 880px;
     /* margin: 0px 20px 20px 20px; */
+    margin-bottom: 20px;
     padding: 0px 10px 10px 10px;
 }
 
