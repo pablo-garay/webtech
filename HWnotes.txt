@@ -7,3 +7,15 @@ Left aligned text
 CENTER DEPRECATED!
 
 Link visited, not visited, hover
+
+Font Color
+Margin
+Font type
+font size
+
+Background color, gradient & so on
+
+
+fondo
+letras en imagen
+Menu
